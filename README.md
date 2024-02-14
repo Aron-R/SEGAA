@@ -39,6 +39,7 @@ $ pip install -r requirements.txt
   • <a href="#Set-2"> Set-2: Individual models predicting all three output variables </a> <br>
   • <a href="#Set-3"> Set-3: Sequential models predicting three outputs in a sequence (MLP) </a> <br>
   • <a href="#Set-4"> Set-4: Sequential models predicting three outputs in a sequence (CNN) </a> <br>
+  • <a href="#Set-5"> Set-5: Attention based CNNs </a> <br>
 </p>
 
 ## Set-1
@@ -86,5 +87,15 @@ $ pip install -r requirements.txt
 * Here, the experiments are carried out such that one CNN model (model 1) is trained to predict output variable y1, then, another CNN model (model 2) is trained on the voice features and predicted y1 to predict y2, after which another CNN model (model 3) is trained on the voice features and predicted y2 to predict y3. 
 <p align="center">
   <img src="/images/set-4.png" /> <br> 
+</p>
+
+## Set-5
+<h4 align="center"> Attention based CNNs </h4> <br>
+<p align ="center">
+  <a href="/models/Attention"> <img src="https://img.shields.io/badge/Set%205-Folder%20Link-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black"> </a>
+</p> <br>
+* Here, the experiments are carried out such that attention layers with different parameters are trained and tested
+<p align="center">
+  <img src="/images/set-5.png" /> <br> 
 </p>
   
