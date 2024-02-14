@@ -1,0 +1,36 @@
+              precision    recall  f1-score   support
+
+       Anger       0.92      0.90      0.91       826
+Anxiety/Fear       0.86      0.79      0.82       773
+     Disgust       0.71      0.91      0.80       795
+   Happiness       0.94      0.75      0.84       839
+     Neutral       0.90      0.77      0.83       713
+     Sadness       0.79      0.92      0.85       792
+
+    accuracy                           0.84      4738
+   macro avg       0.85      0.84      0.84      4738
+weighted avg       0.86      0.84      0.84      4738
+
+              precision    recall  f1-score   support
+
+    Twenties       0.92      0.90      0.91      1583
+    Thirties       0.86      0.95      0.90      1412
+     Forties       0.90      0.89      0.90       759
+     Fifties       0.94      0.80      0.86       618
+     Sixties       0.94      0.93      0.93       326
+   Seventies       1.00      0.82      0.90        40
+
+    accuracy                           0.90      4738
+   macro avg       0.93      0.88      0.90      4738
+weighted avg       0.90      0.90      0.90      4738
+
+              precision    recall  f1-score   support
+
+        Male       0.97      0.98      0.98      2260
+      Female       0.99      0.97      0.98      2478
+
+   micro avg       0.98      0.98      0.98      4738
+   macro avg       0.98      0.98      0.98      4738
+weighted avg       0.98      0.98      0.98      4738
+ samples avg       0.98      0.98      0.98      4738
+

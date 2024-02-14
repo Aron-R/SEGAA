@@ -1,0 +1,10 @@
+              precision    recall  f1-score   support
+
+        Male       1.00      1.00      1.00      2260
+      Female       1.00      1.00      1.00      2478
+
+   micro avg       1.00      1.00      1.00      4738
+   macro avg       1.00      1.00      1.00      4738
+weighted avg       1.00      1.00      1.00      4738
+ samples avg       1.00      1.00      1.00      4738
+
